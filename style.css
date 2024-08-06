@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.side-bar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+.container {
+    background-color: white;
+    height: 100vh;
+}
+.header {
+
+}
