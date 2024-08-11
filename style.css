@@ -107,3 +107,8 @@ button {
 button:hover {
   background-color: rgb(14, 150, 233)
 }
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: #e2e8f0;
+}
