@@ -82,15 +82,15 @@ input {
   padding-left: 20px;
 }
 .big-pfp {
-clip-path: circle();
-width: 100px;
-margin-left: 100px;
+  clip-path: circle();
+  width: 100px;
+  margin-left: 100px;
 }
 .button-container {
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-left: 50%;
+  margin-left: 74vh;
 }
 button {
   border: none;
@@ -100,15 +100,61 @@ button {
   height: 45px;
   border-radius: 30px;
   font-size: 1.2rem;
-  font-family: 'roboto';
+  font-family: "roboto";
   font-weight: 500;
   cursor: pointer;
 }
 button:hover {
-  background-color: rgb(14, 150, 233)
+  background-color: rgb(14, 150, 233);
 }
-.body {
+.bodySection {
   height: 100%;
   width: 100%;
   background-color: #e2e8f0;
+  padding-left: 30px;
+  padding-top: 15px;
+  display: flex;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: repeat(3, 270px);
+  gap: 30px;
+}
+.projects > div {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.right {
+  padding-left: 100px;
+}
+.announcements {
+  background-color: white;
+  height: 450px;
+  width: 370px;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.announcements > div {
+  width: 300px;
+}
+.trending {
+  background-color: white;
+  width: 370px;
+  height: 350px;
+  padding-left: 30px;
+  border-radius: 20px;
+}
+.small-pfp {
+  clip-path: circle();
+  width: 50px;
+}
+.trending > div {
+  display: flex;
+}
+body {
+  overflow: hidden;
 }
