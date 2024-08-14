@@ -158,3 +158,6 @@ button:hover {
 body {
   overflow: hidden;
 }
+.projects > div > div > img {
+  cursor: pointer;
+}
