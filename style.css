@@ -150,7 +150,7 @@ button:hover {
 }
 .small-pfp {
   clip-path: circle();
-  width: 50px;
+  width: 100px;
 }
 .trending > div {
   display: flex;
@@ -160,4 +160,14 @@ body {
 }
 .projects > div > div > img {
   cursor: pointer;
+}
+.projects > div > div {
+  justify-content: end;
+  margin-right: 30px;;
+  margin-top: 70px;
+}
+.trending > div > div > h3 {
+  margin-left: 10px;
+  height: 5px;
+  margin-top: 30px;
 }
